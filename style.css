@@ -1,0 +1,69 @@
+/* Градиент фона — два цвета с плавным переходом */
+:root {
+    --bg1: #791186; /* первый цвет (можно заменить) */
+    --bg2: #400647; /* второй цвет (можно заменить) */
+}
+
+body {
+    background-color: var(--bg1); /* запасной фон для очень старых браузеров */
+    background-image: linear-gradient(45deg, var(--bg1), var(--bg2));
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.055) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+    text-align: right;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #791186;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #400647;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-size: 20px
+}
+
+li{
+    cursor: pointer;
+}
