@@ -81,7 +81,7 @@ p{
     font-size: 14px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .container {
         margin: 20px;
         padding: 15px;
@@ -95,4 +95,5 @@ p{
         margin-bottom: 10px;
     }
 }
+
 
