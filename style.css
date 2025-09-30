@@ -64,6 +64,19 @@ ul {
     font-size: 20px
 }
 
+
 li{
     cursor: pointer;
+    box-shadow: #00000096 0px 0px 6px;
+    padding: 20px;
+    border: #0000004f solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    text-align: center;
+    font-size: 14px;
 }
